@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from "./Components/LoginRegisterContainer/Login";
 import Register from './Components/LoginRegisterContainer/Register';
 import Dashboard from './Components/Dashboard/Dashboard';

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import SearchBar from "../Search/SearchBar";
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import TaskContainer from "../TaskContainer/TaskContainer";
@@ -89,9 +88,9 @@ const Dashboard = () => {
         }
     };
 
-    const onSearch = (queryStr) => {
-        // 
-    };
+    // const onSearch = (queryStr) => {
+    //     // 
+    // };
 
     if (!user) {
         return <div>Loading...</div>;
